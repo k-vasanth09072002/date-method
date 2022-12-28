@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table-method</title>
+</head>
+
+<style>
+    table{
+        border-color: blue;
+        width:100%;
+        height: auto;
+    }
+    th{
+        background-color: aqua;
+        width: 100px;
+        height: 80px;
+    }
+</style>
+<body>
+    <table border="4">
+            
+        <tr>
+            <th>S.NO</th>
+            <th>DATE METHOD</th>
+            <th>SYNTAX</th>
+            <th>EXAMPLE</th>
+            <th>OUTPUT</th>
+            <th>DEFINITION</th>
+            </tr>
+            <tr>
+            <td>01</td>
+            
+            <td>month()</td>
+            <td>xmas.month</td>
+<td>decamber 25, 2022 23:15:30</td>
+           
+            <td>11</td>
+            <td>month 11</td>
+            </tr>
+
+
+            <tr>
+                <td>02</td>
+                
+                <td>week()</td>
+                <td>first.week</td>
+    
+    <td>november 25, 2022 23:15:30</td>
+               
+                <td>-</td>
+                <td>--</td>
+                </tr>
+
+
+                <tr>
+                    <td>03</td>
+                    
+                    <td>fullyear()</td>
+                    <td>c.fullyear()</td>
+        
+        <td>July 20, 22:20:18</td>
+                   
+                    <td>2001</td>
+                    <td>-</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>04</td>
+                        <td>gethours()</td>
+                        <td>hours</td>
+                        <td>may  08 09:57</td>
+                        <td>9</td>
+                        <td>time 9</td>
+                    </tr>
+
+                    <tr>
+                        <td>05</td>
+                        <td>getmillisecounds()</td>
+                        <td>millisecounds</td>
+                        <td>may  08 09:57</td>
+                        <td>9</td>
+                        <td>time 9</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>06</td>
+                        <td>getminutes()</td>
+                        <td>minutes</td>
+                        <td>june 20,07:20:40</td>
+                        <td>20</td>
+                        <td>minutes 20</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>07</td>
+                        <td>getmonth()</td>
+                        <td>month</td>
+                        <td>june 20,07:20:40</td>
+                        <td>5</td>
+                        <td>month 5</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>08</td>
+                        <td>getsecound()</td>
+                        <td>secound</td>
+                        <td>june 20,07:20:40</td>
+                        <td>5</td>
+                        <td>month 5</td>
+                    </tr>
+
+                    <tr>
+                        <td>09</td>
+                        <td>getmonth()</td>
+                        <td>month</td>
+                        <td>june 20,07:20:40</td>
+                        <td>40</td>
+                        <td>secound 40</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>10</td>
+                        <td>time</td>
+                        <td>time</td>
+                        <td>january 1,1970 00:00:00</td>
+                        <td>-198000000</td>
+                        <td>--</td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td>10</td>
+                        <td>time-zohe offset</td>
+                        <td>time-zohe offset</td>
+                        <td>january 1,1970 09:20:03</td>
+                        <td>-330</td>
+                        <td>--</td>
+                    </tr>
+
+
+                    
+
+                    <tr>
+                        <td>11</td>
+                        <td>year</td>
+                        <td>year</td>
+                        <td>january 1,032 09:20:03</td>
+                        <td>2032</td>
+                        <td>--</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>set</td>
+                        <td>set</td>
+                        <td>set</td>
+                        <td>set</td>
+                        <td>set</td>
+                        <td>set</td>
+                    </tr>
+
+
+ 
+                    
+                    <tr>
+                        <td>12</td>
+                        <td>set.date</td>
+                        <td>date(24)</td>
+                        <td>August 19, 1975 23:15:30</td>
+                        <td>24</td>
+                        <td>--</td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td>13</td>
+                        <td>set.fullyear</td>
+                        <td>fullyear(2019)</td>
+                        <td>August 19, 1975 23:15:30</td>
+                        <td>2019</td>
+                        <td>--</td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>14</td>
+                        <td>set.hours</td>
+                        <td>hours(7)</td>
+                        <td>August 19, 1975 23:15:30</td>
+                        <td>7</td>
+                        <td>--</td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>15</td>
+                        <td>set.millisecounds</td>
+                        <td>millisecounds(20)</td>
+                        <td>August 19, 1975 23:15:30</td>
+                        <td>15</td>
+                        <td>--</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>16</td>
+                        <td>set.minutute</td>
+                        <td>minute(40)</td>
+                        <td>August 19, 1975 23:15:30</td>
+                        <td>40</td>
+                        <td>--</td>
+                    </tr>
+
+                     
+                    <tr>
+                        <td>17</td>
+                        <td>set.month</td>
+                        <td>month(6)</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>--</td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td>convert</td>
+                        <td>convert</td>
+                        <td>convert</td>
+                        <td>convert</td>
+                        <td>convert</td>
+                        <td>convert</td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td>18</td>
+                        <td>toDatestring()</td>
+                        <td>toDatestring</td>
+                        <td>2018,4,12</td>
+                        <td>sat may 12 2018</td>
+                        <td>--</td>
+                    </tr>
+         
+
+
+
+                    
+                    <tr>
+                        <td>19</td>
+                        <td>toSOString()</td>
+                        <td>toSOString</td>
+                        <td>05 October 8601 14:48 UTC</td>
+                        <td>may oct 05 8601 20:18:00</td>                        
+                        <td>--</td>
+                    </tr>
+                    
+
+                    
+
+
+                    <tr>
+                        <td>20</td>
+                        <td>toJSON()</td>
+                        <td>toJSON</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>2002-07-09 to 08:30:20.000z</td>                        
+                        <td>--</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>21</td>
+                        <td>toGMTstring()</td>
+                        <td>toGMTstring</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>TUE,09- JUL-2002 08:30:20GMT</td>                        
+                        <td>--</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>22</td>
+                        <td>tolocalDatestring()</td>
+                        <td>tolocalDatestring</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>7-9-2002</td>                        
+                        <td>--</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>23</td>
+                        <td>tolocalstring()</td>
+                        <td>tolocalstring</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>7-9-2002,2:00 :20 pm </td>                        
+                        <td>--</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>24</td>
+                        <td>tolocaletimeString()</td>
+                        <td>tolocaletimeString</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>2:00 :20 pm </td>                        
+                        <td>--</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>25</td>
+                        <td>toString()</td>
+                        <td>toString</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td> tue july 09 2002 14:00 :20GMT+0530 </td>                        
+                        <td>--</td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>26</td>
+                        <td>toTimeString()</td>
+                        <td>toTimeString</td>
+                        <td>july 09 2002 08:30:20 UTC</td>
+                        <td>14:00:20 GMT+0530(india startant time)</td>                        
+                        <td>--</td>
+                    </tr>
+
+                    
+
+
+ 
+                    
+                    
+    </table>
+    
+</body>
+</html>
